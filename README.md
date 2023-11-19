@@ -16,4 +16,4 @@ At Shoenest, we embrace open-source values. Our journey began with a startup min
 ## Coming Soon
 Keep an eye out for exciting developments! Shoenest is gearing up for new initiatives, so stay tuned for updates.
 
-**Note:** This README is a work in progress, reflecting our journey as we evolve. Check back for the latest on Shoenest!
+**Note:** This README is a  in progress, reflecting our journey as we evolve. Check back for the latest on Shoenest!
