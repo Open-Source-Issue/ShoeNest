@@ -1,11 +1,7 @@
-import React from 'react'
+import { Component } from "@/components/component/component"
 
-const page = () => {
+export default function Home() {
   return (
-    <div>
-      <h1>product</h1>
-    </div>
+    <Component />
   )
 }
-
-export default page
