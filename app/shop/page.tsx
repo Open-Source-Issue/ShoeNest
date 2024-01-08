@@ -1,46 +1,14 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/H4e0mZ0Ed3z
- */
 import Link from "next/link"
 import { SelectValue, SelectTrigger, SelectItem, SelectContent, Select } from "@/components/ui/select"
 import { CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import Header from '../header/page'
+import Image from "next/image"
 
 export default function Component() {
   return (
     <div key="1" className="bg-black text-white">
-      <header className="flex justify-between items-center p-6 border-b border-gray-700">
-        <div className="flex items-center space-x-4">
-          <img
-            alt="Logo"
-            className="h-10"
-            height="40"
-            src="/placeholder.svg"
-            style={{
-              aspectRatio: "40/40",
-              objectFit: "cover",
-            }}
-            width="40"
-          />
-          <h1 className="text-4xl font-bold text-yellow-500">
-            Explore Your Shoes
-            <p className="text-xl font-light text-white">Get the best deal on your favorite shoes</p>
-          </h1>
-        </div>
-        <nav className="flex space-x-6">
-          <Link className="text-white hover:text-gray-300" href="#">
-            NEW
-          </Link>
-          <Link className="text-white hover:text-gray-300" href="#">
-            SHOP
-          </Link>
-          <Link className="text-white hover:text-gray-300" href="#">
-            CART
-          </Link>
-          <MenuIcon className="h-6 w-6" />
-        </nav>
-      </header>
+      <Header />
       <div className="flex">
         <aside className="w-1/4 p-6 space-y-6 bg-black shadow-60">
           <div>
@@ -111,7 +79,7 @@ export default function Component() {
           <div className="grid grid-cols-4 gap-6">
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 1"
                   height="200"
                   src="/placeholder.svg"
@@ -130,7 +98,7 @@ export default function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 2"
                   height="200"
                   src="/placeholder.svg"
@@ -149,7 +117,7 @@ export default function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 3"
                   height="200"
                   src="/placeholder.svg"
@@ -168,7 +136,7 @@ export default function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 4"
                   height="200"
                   src="/placeholder.svg"
@@ -187,7 +155,7 @@ export default function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 5"
                   height="200"
                   src="/placeholder.svg"
@@ -206,7 +174,7 @@ export default function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 6"
                   height="200"
                   src="/placeholder.svg"
@@ -225,7 +193,7 @@ export default function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 7"
                   height="200"
                   src="/placeholder.svg"
@@ -244,7 +212,7 @@ export default function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <img
+                <Image
                   alt="Shoe 8"
                   height="200"
                   src="/placeholder.svg"
